@@ -48,7 +48,31 @@ public class Main {
                 Schulnote = "Kein erlaubter Wert!";
                 break;
         }
-            System.out.println("Die Schulnote von einer " + note + " ist: " + Schulnote);
-
-    }//Aufgabe 4 Ende
+        System.out.println("Die Schulnote von einer " + note + " ist: " + Schulnote);
+        //Aufgabe 4 Ende
+        int i =0;
+        while (i < 50){
+            i++;
+            System.out.println(i);
+        }//Aufgabe 5 a Ende
+        System.out.println("Davon sind durch 3 teilbar:");
+        int j=1;
+        while (j < 50){
+            if (j % 3 == 0){
+                System.out.println(j);
+            }
+            j++;
+        }//Aufgabe 5 b Ende
+        int runde = 1;
+        int liegestütze;
+        while (runde < 4){
+            System.out.println(runde + ". Runde. Auf gehts!");
+            liegestütze = 1;
+            while (liegestütze < 11){
+                System.out.println(liegestütze + ". Liegestütze ");
+                liegestütze++;
+            }
+            runde++;
+        }//Aufgabe 6 Ende
+    }
 }
